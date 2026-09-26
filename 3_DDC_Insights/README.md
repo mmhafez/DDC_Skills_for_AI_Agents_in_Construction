@@ -24,13 +24,14 @@
 | [n8n-project-management](Automation-Workflows/n8n-project-management/) | PM task automation |
 | [n8n-qto-pipeline](Automation-Workflows/n8n-pto-pipeline/) | Quantity takeoff pipeline |
 
-### AI-Agents (2 skills) - NEW 2026
-*Multi-agent systems and LLM automation*
+### AI-Agents (3 skills) - NEW 2026
+*Multi-agent systems, LLM automation and live web search*
 
 | Skill | Description |
 |-------|-------------|
 | [multi-agent-estimation](AI-Agents/multi-agent-estimation/) | CrewAI/LangGraph for automated estimation |
 | [llm-document-extraction](AI-Agents/llm-document-extraction/) | Extract structured data from RFIs, contracts, submittals |
+| [brave-search-mcp](AI-Agents/brave-search-mcp/) | Live web search via Brave Search MCP: supplier prices, availability, standards |
 
 ### Field-Automation (2 skills) - NEW 2026
 *Tools for field workers without IT training*
@@ -47,7 +48,29 @@
 |-------|-------------|
 | [uberization-readiness](Open-Data-Transparency/uberization-readiness/) | Assess readiness for open data disruption |
 
-**Total: 10 skills**
+### Safety-Quality (5 skills)
+*Incident, compliance and quality workflows*
+
+| Skill | Description |
+|-------|-------------|
+| [incident-reporting](Safety-Quality/incident-reporting/) | Structured incident capture and reporting |
+| [compliance-tracker](Safety-Quality/compliance-tracker/) | Track safety and regulatory compliance |
+| [quality-control-workflow](Safety-Quality/quality-control-workflow/) | QC inspection workflows |
+| [safety-inspection-checklist](Safety-Quality/safety-inspection-checklist/) | Digital safety checklists |
+| [toolbox-talk-generator](Safety-Quality/toolbox-talk-generator/) | Generate toolbox-talk briefings |
+
+### Schedule-Optimization (5 skills)
+*Planning, float and delay analysis*
+
+| Skill | Description |
+|-------|-------------|
+| [critical-path-analyzer](Schedule-Optimization/critical-path-analyzer/) | CPM analysis and critical path |
+| [delay-analysis](Schedule-Optimization/delay-analysis/) | Delay and impact analysis |
+| [look-ahead-scheduler](Schedule-Optimization/look-ahead-scheduler/) | Short-interval look-ahead plans |
+| [resource-allocation-optimizer](Schedule-Optimization/resource-allocation-optimizer/) | Allocate crews and equipment |
+| [schedule-compression](Schedule-Optimization/schedule-compression/) | Crashing and fast-tracking options |
+
+**Total: 21 skills**
 
 ---
 

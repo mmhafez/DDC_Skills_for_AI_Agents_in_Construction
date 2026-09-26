@@ -90,7 +90,7 @@ This roadmap defines a systematic approach to building a comprehensive AI skills
 
 | Priority | Skill | Description | Source |
 |----------|-------|-------------|--------|
-| HIGH | mcp-construction-apis | MCP servers for ERP, BIM | NEW |
+| HIGH | mcp-construction-apis | MCP servers for ERP, BIM (ERP guide in `oce-mcp-integration`; reusable pattern + probe in `brave-search-mcp`; BIM server still open) | NEW (partial) |
 | MEDIUM | webhook-processor | Process incoming webhooks | Community |
 | MEDIUM | api-gateway-builder | Create API endpoints | Community |
 
@@ -343,7 +343,7 @@ EFFORT│                  │                   │ EFFORT
 3. [ ] Add verification-loop skill for QA workflows
 4. [ ] Add TDD workflow skill
 5. [ ] Add D3.js visualization skill
-6. [ ] Create MCP integration guide
+6. ✅ Create MCP integration guide (`brave-search-mcp`, with host config matrix + probe)
 7. [ ] Create Optimizer Communication Guide
 
 ### Short-Term (Next Week)

@@ -1,0 +1,26 @@
+{
+  "name": "brave-search-mcp",
+  "version": "2.0.0",
+  "description": "Give AI coding assistants live web search via the Brave Search MCP server. Configure Claude Code, Claude Desktop, Cursor, VS Code or OpenCode; research construction supplier prices, material availability, standards, escalation and market news with citation and prompt-injection safeguards. Includes a stdlib-only REST fallback for scripts and n8n, plus an MCP probe.",
+  "author": "datadrivenconstruction",
+  "license": "MIT",
+  "permissions": [
+    "filesystem",
+    "network"
+  ],
+  "entry": "instructions.md",
+  "tags": [
+    "construction",
+    "mcp",
+    "web-search",
+    "brave-search",
+    "ai-agents",
+    "integration",
+    "research"
+  ],
+  "models": [
+    "claude-*",
+    "gpt-*"
+  ],
+  "minOpenClawVersion": "0.8.0"
+}

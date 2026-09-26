@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-238-blue?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/Skills-240-blue?style=flat-square" alt="Skills">
   <img src="https://img.shields.io/badge/Categories-6-green?style=flat-square" alt="Categories">
   <img src="https://img.shields.io/badge/Book_Languages-31-orange?style=flat-square" alt="Languages">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License">
@@ -26,7 +26,7 @@
 
 ## What is this?
 
-A collection of **238 skills** for automating construction company processes with AI coding assistants.
+A collection of **240 skills** for automating construction company processes with AI coding assistants.
 
 ### What is a "Skill"?
 
@@ -40,16 +40,16 @@ Skills are organized by source and complexity level:
 
 | Category | What's inside | Skills | Start here if... |
 |----------|---------------|--------|------------------|
-| **1_DDC_Toolkit** | Production-ready tools: CWICR database, CAD converters, analytics | 85 | You need a working tool now |
+| **1_DDC_Toolkit** | Production-ready tools: CWICR database, CAD converters, analytics | 86 | You need a working tool now |
 | **2_DDC_Book** | Skills mapped to book chapters: data evolution, types, estimation, ML | 67 | You want to follow a structured learning path |
-| **3_DDC_Insights** | Practical workflows: n8n automation, AI agents, field tools | 20 | You need workflow automation |
+| **3_DDC_Insights** | Practical workflows: n8n automation, AI agents, web search (MCP), field tools | 21 | You need workflow automation |
 | **4_DDC_Curated** | Document generation (PDF, Excel, DOCX, PPTX), quality checks | 20 | You need document or report templates |
 | **5_DDC_Innovative** | Advanced: computer vision, IoT, digital twins, risk assessment, AI agents, ESG, EU AI Act, circular construction, generative design | 34 | You're ready for AI/ML experimentation |
 | **6_OpenConstructionERP** | Work with the OpenConstructionERP platform: load cost bases, BOQ & estimating, BIM takeoff, 4D/5D, cost browser, MCP, field ops, tendering, validation, geo/coordination, property development | 12 | You build on the open-source construction ERP |
 
 ```mermaid
 mindmap
-  root((DDC Skills<br/>238 skills))
+  root((DDC Skills<br/>240 skills))
     1_DDC_Toolkit
       CWICR Database
         8 national bases
@@ -72,6 +72,7 @@ mindmap
         Daily Reports
         Photo Reports
       AI Agents 2026
+        Brave Search MCP
       Field Automation
     4_DDC_Curated
       Document Generation
@@ -142,8 +143,9 @@ Examples of common problems and which skills address them:
 | Budget overruns discovered too late | Scheduled budget vs. actual comparison | `budget-tracker` | `1_DDC_Toolkit/` |
 | PDF specifications need to be searchable | Extracts text and tables from PDFs into structured data | `specification-extractor` | `2_DDC_Book/` |
 | Schedule delays are hard to predict | Statistical analysis of schedule variance patterns | `schedule-delay-analyzer` | `3_DDC_Insights/` |
+| The assistant gives outdated prices, specs or codes | Live web search for supplier prices, material availability, standards and market news | `brave-search-mcp` | `3_DDC_Insights/` |
 
-*This is a selection of examples. The full collection contains 221 skills covering estimation, reporting, BIM, document processing, analytics, and more.*
+*This is a selection of examples. The full collection contains 240 skills covering estimation, reporting, BIM, document processing, analytics, and more.*
 
 ---
 
@@ -361,7 +363,7 @@ Construction data comes in three forms. Each requires a different processing app
 ```
 DDC_Skills/
 │
-├── 1_DDC_Toolkit/              ← Production tools (85 skills)
+├── 1_DDC_Toolkit/              ← Production tools (86 skills)
 │   ├── CWICR-Database/         ← 8 national bases + 30 markets database
 │   ├── CAD-Converters/         ← Revit/IFC/DWG → Excel
 │   └── ...
@@ -373,19 +375,25 @@ DDC_Skills/
 │   ├── 4.2-ETL-Automation/     ← Automate data pipelines
 │   └── ...
 │
-├── 3_DDC_Insights/             ← Practical workflows (20 skills)
+├── 3_DDC_Insights/             ← Practical workflows (21 skills)
 │   ├── Automation-Workflows/   ← n8n automation
-│   ├── AI-Agents/              ← Multi-agent systems (2026)
+│   ├── AI-Agents/              ← Multi-agent systems + Brave Search MCP (2026)
 │   ├── Field-Automation/       ← Telegram bot, voice reports
+│   ├── Safety-Quality/         ← Incident, compliance, QC workflows
+│   ├── Schedule-Optimization/  ← CPM, delay, look-ahead, resource allocation
 │   └── Open-Data-Transparency/ ← Uberization readiness
 │
 ├── 4_DDC_Curated/              ← External skills (20 skills)
 │   ├── Document-Generation/    ← PDF/Excel/DOCX/PPTX generation
 │   └── Quality-Assurance/      ← Quality checks
 │
-├── 5_DDC_Innovative/           ← Advanced AI/ML skills (29 skills)
+├── 5_DDC_Innovative/           ← Advanced AI/ML skills (34 skills)
 │   ├── defect-detection-ai/    ← Computer vision for defects
 │   ├── digital-twin-sync/      ← Real-time BIM sync
+│   └── ...
+│
+├── 6_OpenConstructionERP/      ← OpenConstructionERP platform skills (12 skills)
+│   ├── oce-mcp-integration/    ← Expose the ERP to assistants via MCP
 │   └── ...
 │
 ├── Books/                      ← Free book downloads (31 languages)

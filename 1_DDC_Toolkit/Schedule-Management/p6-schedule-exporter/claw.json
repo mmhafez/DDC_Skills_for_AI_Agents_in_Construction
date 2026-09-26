@@ -1,0 +1,24 @@
+{
+  "name": "p6-schedule-exporter",
+  "version": "2.0.0",
+  "description": "Export construction schedules to Primavera P6 importable formats - P6 XML and XER. Convert Excel/CSV or DDC schedule data into P6-loadable files with WBS, activities, relationships (FS/SS/FF/SF), lags, calendars, resources and cost assignments.",
+  "author": "datadrivenconstruction",
+  "license": "MIT",
+  "permissions": [
+    "filesystem"
+  ],
+  "entry": "instructions.md",
+  "tags": [
+    "construction",
+    "scheduling",
+    "primavera-p6",
+    "xer",
+    "interoperability",
+    "data-processing"
+  ],
+  "models": [
+    "claude-*",
+    "gpt-*"
+  ],
+  "minOpenClawVersion": "0.8.0"
+}
